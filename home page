@@ -1,0 +1,36 @@
+<main id="home-page">
+    <section class="hero-split">
+        <div class="hero-text">
+            <link rel="stylesheet" href="style.css">
+            <span class="badge">New 24/7 Access Available</span>
+            <h1>EXPLORE <br><span>STRENGTH</span></h1>
+            <p>Don't just train; transform. Access elite coaching, state-of-the-art equipment, and a community that pushes you further.</p>
+            <div class="hero-btns">
+                <button class="btn-primary">Start Free Trial</button>
+                <button class="btn-outline">View Class Schedule</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/home/naom-wafula/Documents/GitHub/sports-club/🏋️_♀️¿QUIERES QUE TU NEGOCIO FITNESS IMPACTE….jpeg" alt="Athlete Training">
+        </div>
+    </section>
+
+    <section class="stats-bar">
+        <div class="stat-item">
+            <h2>15+</h2>
+            <p>Expert Coaches</p>
+        </div>
+        <div class="stat-item">
+            <h2>24/7</h2>
+            <p>Gym Access</p>
+        </div>
+        <div class="stat-item">
+            <h2>50+</h2>
+            <p>Weekly Classes</p>
+        </div>
+        <div class="stat-item">
+            <h2>98%</h2>
+            <p>Success Rate</p>
+        </div>
+    </section>
+</main>
