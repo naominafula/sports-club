@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,10 +13,10 @@ body {
 }
 
 span {
-    color: gold; /* Electric Yellow */
+    color: gold; 
 }
 
-/* Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -51,10 +51,10 @@ span {
 }
 
 .nav-links a:hover {
-    color: #ccff00; /* Electric Yellow */
+    color: #ccff00; 
 }
 
-/* Hero Section */
+
 .hero {
     height: 90vh;
     background: linear-gradient( transparent), 
@@ -74,7 +74,7 @@ span {
     color: aquamarine;
 }
 
-/* Cards */
+
 .programs {
     padding: 80px 10%;
     text-align: center;
@@ -96,16 +96,13 @@ span {
     border-radius: 8px;
     transition: transform 0.3s;
     
-    
 }
 
 .card:hover {
     transform: translateY(-10px);
     border: 1px solid blue;
     
-    
 }
-
 .btn-main {
     background: #ccff00;
     border: none;
