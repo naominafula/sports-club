@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     const joinBtn = document.getElementById('joinBtn');
 
-    // Simple interaction for the Join button
+    
     joinBtn.addEventListener('click', () => {
         alert('Welcome to the Pulse! Redirecting to registration...');
     });
 
-    // Smooth scroll reveal effect (simple version)
+    
     const cards = document.querySelectorAll('.card');
     
     window.addEventListener('scroll', () => {
