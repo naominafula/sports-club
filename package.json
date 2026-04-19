@@ -1,11 +1,13 @@
 {
-  "devDependencies": {
-    "jest": "^30.3.0"
-  },
-
-  
+  "name": "sports-club",
+  "version": "1.0.0",
+  "description": "Sports club website",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
+  "test": "jest --env=jsdom"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
   }
 }
+

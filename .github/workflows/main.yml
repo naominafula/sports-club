@@ -14,13 +14,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Prepare deploy artifact
+        run: |
+          mkdir -p deploy
+          shopt -s nullglob
+          cp *.html *.css *.js *.jpg *.jpeg *.png *.svg deploy/ || true
+          cp -r assets deploy/ 2>/dev/null || true
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: deploy
 
       - name: Deploy to GitHub Pages
         id: deployment
